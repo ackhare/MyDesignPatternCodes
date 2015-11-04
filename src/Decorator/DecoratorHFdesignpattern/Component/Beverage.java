@@ -11,7 +11,8 @@ public abstract class Beverage {
 	public String getDescription() {
 		return description;
 	}
-	
+	//yu need to use a method here as setDescription because in a
+	// abstract class variable is not getting inherited but method gets inherited
 	public void setDescription(String description) {
 		this.description=description;
 	}
@@ -21,6 +22,6 @@ public abstract class Beverage {
 	public Size getSize() {
 		return this.size;
 	}
- 
+ //abstract keyword needs to be given
 	public abstract double cost();
 }
