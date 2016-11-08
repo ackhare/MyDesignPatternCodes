@@ -13,7 +13,7 @@ public class DuckSimulator {
 		Quackable rubberDuck = new QuackCounter(new RubberDuck());
 		Quackable gooseDuck = new GooseAdapter(new Goose());
 
-		System.out.println("\nDuck Simulator: With Decorator");
+		System.out.println("\nDuck Simulator: With Structural.Decorator");
 
 		simulate(mallardDuck);
 		simulate(redheadDuck);

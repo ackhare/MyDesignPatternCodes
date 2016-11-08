@@ -15,7 +15,7 @@ public class DuckSimulator {
 		Quackable rubberDuck = duckFactory.createRubberDuck();
 		Quackable gooseDuck = new GooseAdapter(new Goose());
 
-		System.out.println("\nDuck Simulator: With Composite - Flocks");
+		System.out.println("\nDuck Simulator: With Structural.Composite - Flocks");
 
 		Flock flockOfDucks = new Flock();
 

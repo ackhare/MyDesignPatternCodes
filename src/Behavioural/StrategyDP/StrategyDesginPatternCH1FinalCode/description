@@ -1,0 +1,6 @@
+The Behavioural.StrategyDP Pattern defines a family of algorithms,
+encapsulates each one, and makes them interchangeable.
+Behavioural.StrategyDP lets the algorithm vary independently from
+clients that use it.
+
+yet not generalized properly

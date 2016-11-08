@@ -36,7 +36,7 @@ public class DuckSimulator {
 
 		flockOfDucks.add(flockOfMallards);
 
-		System.out.println("\nDuck Simulator: With Observer");
+		System.out.println("\nDuck Simulator: With Behavioural.Observer");
 
 		Quackologist quackologist = new Quackologist();
 		flockOfDucks.registerObserver(quackologist);
