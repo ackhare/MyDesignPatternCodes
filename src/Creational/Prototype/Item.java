@@ -3,7 +3,8 @@ package Creational.Prototype;
 /**
  * Created by chetan on 27/9/15.
  */
-//First, we'll create an abstract class for our Item, which will be our Creational.Prototype that includes a clone method.
+//First, we'll create an abstract class for our Item,
+// which will be our Creational.Prototype that includes a clone method.
 //Creational.Prototype
 public abstract class Item{
     private String title;

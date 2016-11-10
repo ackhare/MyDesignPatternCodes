@@ -34,7 +34,7 @@ public class ShapeFactory extends AbstractFactory {
    }
 
    @Override
-   Color getColor(String color) {
+  public Color getColor(String color) {
       return null;
    }
 }

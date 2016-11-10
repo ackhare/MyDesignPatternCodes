@@ -18,13 +18,15 @@ class based on given information.
 
 public class ColorFactory extends AbstractFactory {
 
+    //because it is a colorfactory it should not really go to the extent of cgetting object of Shape
    @Override
    public Shape getShape(String shapeType){
       return null;
    }
 
    @Override
-   Color getColor(String color) {
+   //Now any color can be fitted
+   public Color getColor(String color) {
 
       if(color == null){
          return null;

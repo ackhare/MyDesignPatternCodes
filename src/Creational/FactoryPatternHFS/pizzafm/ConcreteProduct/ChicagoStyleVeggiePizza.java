@@ -14,7 +14,7 @@ public class ChicagoStyleVeggiePizza extends Pizza {
 		toppings.add("Eggplant");
 	}
  
-	void cut() {
-		System.out.println("Cutting the pizza into square slices");
-	}
+//	void cut() {
+//		System.out.println("Cutting the pizza into square slices");
+//	}
 }

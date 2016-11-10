@@ -1,4 +1,4 @@
-package Creational.AbstractFactory.tp;
+package Creational.FactoryPatternHFS.tp;
 
 /**
  * Created by chetan on 8/11/16.
