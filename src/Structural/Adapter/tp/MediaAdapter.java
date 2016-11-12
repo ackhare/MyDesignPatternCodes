@@ -1,0 +1,36 @@
+package Structural.Adapter.tp;
+
+import Structural.Adapter.tp.AdvancedMediaPlayerConcrete.Mp4Player;
+import Structural.Adapter.tp.AdvancedMediaPlayerConcrete.VlcPlayer;
+
+/**
+ * Created by chetan on 12/11/16.
+ */
+
+//Create adapter class implementing the MediaPlayer interface.
+
+public class MediaAdapter implements MediaPlayer {
+
+   AdvancedMediaPlayer advancedMusicPlayer;
+
+   public MediaAdapter(String audioType){
+
+      if(audioType.equalsIgnoreCase("vlc") ){
+         advancedMusicPlayer = new VlcPlayer();
+
+      }else if (audioType.equalsIgnoreCase("mp4")){
+         advancedMusicPlayer = new Mp4Player();
+      }
+   }
+
+   @Override
+   public void play(String audioType, String fileName) {
+
+      if(audioType.equalsIgnoreCase("vlc")){
+         advancedMusicPlayer.playVlc(fileName);
+      }
+      else if(audioType.equalsIgnoreCase("mp4")){
+         advancedMusicPlayer.playMp4(fileName);
+      }
+   }
+}
